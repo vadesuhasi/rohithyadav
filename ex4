@@ -1,0 +1,8 @@
+lass students:
+    name="kprit"
+    
+
+s1=students()
+s2=students()
+print(s1.name)
+print(s2.name)
