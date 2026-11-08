@@ -1,0 +1,9 @@
+class student:
+    name="suhasi"
+    age=20
+class CSEstudent(student):
+    branch="CSE G,F"
+gf=CSEstudent()
+print(gf.name)
+print(gf.age)
+print(gf.branch)
