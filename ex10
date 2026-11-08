@@ -1,0 +1,13 @@
+class father:
+    def works(self):
+        print("father works in IT")
+class mother:
+    def cook(self):
+        print("mother cooks")
+class child(father,mother):
+    def study(self):
+        print("studying CSE")
+c=child()
+c.study()
+c.works()
+c.cook()
