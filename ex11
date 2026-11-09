@@ -1,0 +1,15 @@
+class account:
+    def number(self):
+        print("Account number")
+class savingaccount(account):
+    def credit(self):
+        print("Money crediting")
+class withdrawaccount(account):
+    def withdraw(self):
+        print("withdrawing money")
+s=savingaccount()
+s.number()
+s.credit()
+w=withdrawaccount()
+w.number()
+w.withdraw()
