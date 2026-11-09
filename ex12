@@ -1,0 +1,8 @@
+class dog:
+    def sound(self):
+        print("dog brack")
+class cat(dog):
+    def sound(self):
+        print("eat mewow")
+c=cat()
+c.sound()
