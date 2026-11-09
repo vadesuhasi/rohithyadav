@@ -1,0 +1,4 @@
+print(5+10)
+print("hello"+" kprit")
+print(2*17)
+print("*"*10)
