@@ -1,0 +1,12 @@
+try:
+    a=int(input("enter a="))
+    b=int(input("enter b="))
+    result=a/b
+except ZeroDivisionError:
+    print("division not happen")
+except ValueError:
+    print("enter number only")
+else:
+    print(result)
+finally:
+    print("code is over")
