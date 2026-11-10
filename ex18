@@ -1,0 +1,20 @@
+class bankaccount:
+    accountholdername="suhasi"
+    accountnumber=24/256749
+    balance=20000
+    def desposit(self,amount,totalbalance):
+        amount=200
+        totalbalance=amount+self.balance
+        print(totalbalance)
+    def with_drawal(self,amount):
+        amount=300
+        print(amount)
+    def display_balance(self):
+        if self.balance==0:
+            print("no balance")
+        else:
+            print(self.balance)
+SBI=bankaccount()
+SBI.desposit(200,0)
+SBI.with_drawal(300)
+SBI.display_balance()
