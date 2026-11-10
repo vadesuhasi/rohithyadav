@@ -1,0 +1,8 @@
+class name :
+    def super__init__(self):
+        self.name = name 
+        self.age = age
+    def read (self):
+        print (self.name)
+        print (self.age)
+s1 = name ("kprit",21)
