@@ -1,0 +1,11 @@
+class demo:
+    def addition (self a,b);
+       print (a+b)
+    def subraction (self a,b);
+       priint (a-b)
+    def multiply (self a,b);
+       print (a*b)
+    d1= demo()
+    d1. addition(10,20)
+    d1.subraction(30,20)
+    d1.multiply(30*50)
