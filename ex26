@@ -1,0 +1,6 @@
+class animal
+  __name="dog"
+  __name="cat"
+  A.animal()
+  print(A__name)
+  print(A__name2)
